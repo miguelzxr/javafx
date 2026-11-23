@@ -76,7 +76,7 @@ public class CadastroController {
             return;
         }
 
-        // Ajuste o construtor de Tarefa conforme os atributos da sua classe Tarefa
+
         Tarefa novaTarefa = new Tarefa("PROJETO","javafx","01/12/26",Status.PENDENTE,Prioridade.ALTA);
         Tarefa novaTarefai = new Tarefa("PROJETO","javafx","01/12/26",Status.PENDENTE,Prioridade.ALTA);
         Tarefa novaTarefaii = new Tarefa("PROJETO","javafx","01/12/26",Status.PENDENTE,Prioridade.ALTA);

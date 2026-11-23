@@ -71,7 +71,7 @@ import java.time.LocalDate;
 
         @FXML
         public void initialize() {
-            // Confirme se os nomes entre aspas batem com os getters/atributos de Tarefa.java
+
             colNome.setCellValueFactory(new PropertyValueFactory<>("nome"));
             colDesc.setCellValueFactory(new PropertyValueFactory<>("descricao"));
             colData.setCellValueFactory(new PropertyValueFactory<>("dataEntrega"));
